@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="18px" viewBox="0 0 32 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1 Copy 2@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#566FFF" stop-opacity="0.390596694" offset="0%"></stop>
+            <stop stop-color="#5B71F9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="出借" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3453125">
+        <g id="W计划详情页-Copy" transform="translate(-564.000000, -1190.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-7" transform="translate(32.000000, 1090.000000)">
+                <g id="Group-6" transform="translate(0.000000, 72.000000)">
+                    <path d="M552,28 L552,46 L564,37 L552,28 Z M542,42 L550,42 L550,32 L542,32 L542,42 Z M536,42 L540,42 L540,32 L536,32 L536,42 Z M532,42 L534,42 L534,32 L532,32 L532,42 Z" id="Fill-1-Copy-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

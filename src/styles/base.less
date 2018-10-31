@@ -1,0 +1,122 @@
+@import "color";
+
+/* 清除内外边距 */
+body, div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, form,/* form elements 表单元素 */
+th, td{ /* table elements 表格元素 */
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   // -webkit-text-size-adjust: none;
+   // -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+   &:after,
+   &:before {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+   }
+}
+
+code, kbd, pre, samp, tt {
+   font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+/* 重置列表元素 */
+ul, ol {
+   // list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+   font-size: 100%;
+   font-weight: normal;
+}
+
+/* 重置表格元素 */
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+img {
+   vertical-align: top;
+   border: 0;
+}
+
+a {
+   text-decoration: none;
+   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none
+}
+
+p {
+   margin: 0
+}
+
+a:hover,
+a:focus{
+   color: #fff;
+   text-decoration: none;
+   outline: none;
+}
+a:visited{
+   color: #272727;
+}
+
+img {
+   content: normal !important;
+}
+
+html,body {
+   height: 100%;
+}
+
+.left {
+   float: left;
+}
+.right {
+   float: right;
+}
+
+.flex{
+   display: -webkit-flex;
+   display: flex;
+   display: -webkit-box;
+   display: -moz-box;
+   display: -ms-flexbox;
+}
+.flex-1{
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+   -webkit-box-flex: 1;
+   -moz-box-flex: 1;
+   width: 0;
+}
+
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+.zyjToast{
+   position: fixed;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   color: #ffffff;
+   background: rgba(0,0,0,.7);
+   border-radius: 10px;
+   font-size: 26px;
+   padding: 10px;
+}

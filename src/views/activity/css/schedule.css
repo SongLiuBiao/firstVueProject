@@ -1,0 +1,73 @@
+/*日历样式*/
+.schedule-hd{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333333;
+  background: #ffffff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 1px solid #D8D8D8;
+  position: relative;
+}
+#prevMonth{
+  background: url("https://f.weijinshi.com/myoss/data/8C4EEE8397CB0DBFB8B2943F0486B69E.png") no-repeat;
+  background-size: 100%;
+  width: 32px;
+  height: 40px;
+  position: absolute;
+  left: 30px;
+  top: 20px;
+}
+#nextMonth{
+  background: url("https://f.weijinshi.com/myoss/data/C4CDF21AB7DEE534B5C0B83BF0B6C44B.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  width: 32px;
+  height: 40px;
+  right: 30px;
+  top: 20px;
+}
+.week-ul{
+  width: 90%;
+  background: #ffffff;
+}
+
+.ul-box{
+  overflow: hidden;
+  background: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0 30px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.ul-box li{
+  float: left;
+  width: calc(100%/7);
+  line-height: 48px;
+  padding: 10px 0px;
+  margin-top: 3px;
+}
+.other-month{
+  color: #999999;
+}
+.current-month{
+  color: #333333;
+}
+.dayStyle{
+  font-size: 30px;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+}
+.singInDay-flag{
+  background: url("https://f.weijinshi.com/myoss/data/1928862BCD6A8287826527636BD13297.png") no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+}
